@@ -1,6 +1,6 @@
 # Ujian Tengah Semester
 
-# Tampilan Menu Utama
+* Tampilan Menu Utama
 
 ![img](https://github.com/zaenalmusthofa86/UTS-ZaenalMustofa-311810782-TI.18.D1-UTSApps/blob/main/img/1.JPG)
 
