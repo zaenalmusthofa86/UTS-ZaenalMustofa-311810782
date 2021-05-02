@@ -36,17 +36,17 @@ public class MainActivity extends AppCompatActivity {
 
         btnFragment2.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-              FragmentManager fm = getSupportFragmentManager();
-              FragmentTransaction ft = fm.beginTransaction();
-              ft.replace(R.id.container, new SecondFragment());
-              ft.commit();
+            public void onClick(View view) {
+                FragmentManager fm = getSupportFragmentManager();
+                FragmentTransaction ft = fm.beginTransaction();
+                ft.replace(R.id.container, new SecondFragment());
+                ft.commit();
             }
         });
 
         btnFragment3.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 FragmentManager fm = getSupportFragmentManager();
                 FragmentTransaction ft = fm.beginTransaction();
                 ft.replace(R.id.container, new MapsFragment());
@@ -54,14 +54,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
         btnFragment4.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 FragmentManager fm = getSupportFragmentManager();
                 FragmentTransaction ft = fm.beginTransaction();
                 ft.replace(R.id.container, new TelephoneFragment());
                 ft.commit();
             }
         });
+
+
     }
 }

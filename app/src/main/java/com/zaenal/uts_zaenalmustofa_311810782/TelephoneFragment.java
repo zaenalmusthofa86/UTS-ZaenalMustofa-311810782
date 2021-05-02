@@ -1,6 +1,5 @@
 package com.zaenal.uts_zaenalmustofa_311810782;
 
-import android.app.Activity;
 import android.Manifest;
 import android.app.Application;
 import android.content.Context;
@@ -21,17 +20,25 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+
+
 public class TelephoneFragment extends Fragment {
 
     ImageView imageCall;
     EditText edit_text_number;
 
+
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_telephone, container, false);
+
 
         edit_text_number = view.findViewById(R.id.edit_text_number);
         imageCall = view.findViewById(R.id.image_call);
+
+
 
         imageCall.setOnClickListener(new View.OnClickListener() {
             @Override
