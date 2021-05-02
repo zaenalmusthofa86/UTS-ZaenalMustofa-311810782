@@ -10,4 +10,6 @@
     <color name="cream_200">#E1D0A5</color>
     <color name="maroon_500">#A43636</color>
     <color name="maroon_700">#A43636</color>
+    <color name="green">#0f0</color>
+    <color name="colorAccent">#D81B60</color>
 </resources>

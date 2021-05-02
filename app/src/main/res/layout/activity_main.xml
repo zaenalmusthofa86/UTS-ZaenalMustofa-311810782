@@ -17,28 +17,28 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Fg 1"/>
+            android:text="Web"/>
 
         <Button
             android:id="@+id/btnFragment2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Fg 2"/>
+            android:text="Email"/>
 
         <Button
             android:id="@+id/btnFragment3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Fg 3 "/>
+            android:text="Map"/>
 
         <Button
             android:id="@+id/btnFragment4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Fg 4 "/>
+            android:text="Telp"/>
     </LinearLayout>
 
     <FrameLayout
